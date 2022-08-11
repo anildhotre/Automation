@@ -1,0 +1,232 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil Courier New;}{\f1\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red127\green0\blue85;\red0\green0\blue0;\red106\green62\blue62;\red42\green0\blue255;\red0\green0\blue192;}
+{\*\generator Riched20 10.0.22000}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\cf1\b\f0\fs20\lang9 public\cf2\b0  \cf1\b class\cf2\b0  CpuntChar \{\cf0\par
+\cf1\b public\cf2\b0  \cf1\b static\cf2\b0  \cf1\b void\cf2\b0  main(String[] \cf3 args\cf2 ) \{\cf0\par
+\cf2\tab String \cf3 s\cf2  = \cf4 "philliinesii"\cf2 ;\cf0\par
+\cf2\tab\cf1\b int\cf2\b0  \cf3 count\cf2  = 0;\cf0\par
+\cf2\tab String \cf3 s1\cf2  = \cf3 s\cf2 .toLowerCase();\cf0\par
+\cf2\tab\cf1\b for\cf2\b0 (\cf1\b int\cf2\b0  \cf3 i\cf2  = 0;\cf3 i\cf2 <\cf3 s1\cf2 .length();\cf3 i\cf2 ++)\cf0\par
+\cf2\tab\{\cf0\par
+\cf2\tab\tab\cf1\b char\cf2\b0  \cf3 c\cf2  = \cf3 s\cf2 .charAt(\cf3 i\cf2 );\cf0\par
+\cf2\tab\tab\cf1\b if\cf2\b0 (\cf3 c\cf2 ==\cf4 'i'\cf2 ) \{\cf0\par
+\cf2\tab\tab\tab\cf3 count\cf2 ++;\cf0\par
+\cf2\tab\tab\}\cf0\par
+\cf2\tab\}\cf0\par
+\cf2\tab System.\cf5\b\i out\cf2\b0\i0 .println(\cf4 "Total occurence of p is:"\cf2 +\cf3 count\cf2 );\cf0\par
+\cf2\}\cf0\par
+\cf2\}\cf0\par
+\par
+\par
+\cf1\b public\cf2\b0  \cf1\b class\cf2\b0  PrintCharAtEvenPosition \{\cf0\par
+\cf1\b public\cf2\b0  \cf1\b static\cf2\b0  \cf1\b void\cf2\b0  main(String[] \cf3 args\cf2 ) \{\cf0\par
+\cf2\tab String \cf3 s\cf2  = \cf4 "Gandhinagar"\cf2 ;\cf0\par
+\cf2\tab\cf1\b for\cf2\b0 (\cf1\b int\cf2\b0  \cf3 i\cf2  = 0;\cf3 i\cf2 <\cf3 s\cf2 .length();\cf3 i\cf2 ++)\cf0\par
+\cf2\tab\{\cf0\par
+\cf2\tab\tab\cf1\b if\cf2\b0 (\cf3 i\cf2 %2==0) \{\cf0\par
+\cf2\tab\tab\tab\cf1\b char\cf2\b0  \cf3 c\cf2  = \cf3 s\cf2 .charAt(\cf3 i\cf2 );\cf0\par
+\cf2\tab\tab\tab System.\cf5\b\i out\cf2\b0\i0 .println(\cf3 c\cf2 );\cf0\par
+\cf2\tab\tab\}\cf0\par
+\cf2\tab\tab\cf0\par
+\cf2\tab\}\cf0\par
+\cf2\}\cf0\par
+\cf2\}\cf0\par
+\par
+\par
+\cf1\b public\cf2\b0  \cf1\b class\cf2\b0  PrintIndexPositionChar \{\cf0\par
+\cf1\b public\cf2\b0  \cf1\b static\cf2\b0  \cf1\b void\cf2\b0  main(String[] \cf3 args\cf2 ) \{\cf0\par
+\cf2\tab String \cf3 s\cf2  = \cf4 "Delhi"\cf2 ;\cf0\par
+\cf2\tab\cf1\b for\cf2\b0 (\cf1\b int\cf2\b0  \cf3 i\cf2  =0;\cf3 i\cf2 <\cf3 s\cf2 .length();\cf3 i\cf2 ++) \{\cf0\par
+\cf2\tab\tab\cf1\b char\cf2\b0  \cf3 c\cf2  = \cf3 s\cf2 .charAt(\cf3 i\cf2 );\cf0\par
+\cf2\tab\tab\cf1\b if\cf2\b0 (\cf3 c\cf2 ==\cf4 'h'\cf2  || \cf3 c\cf2 ==\cf4 'i'\cf2 ) \{\cf0\par
+\cf2\tab\tab\tab System.\cf5\b\i out\cf2\b0\i0 .println(\cf4 "character "\cf2 +\cf3 c\cf2 +\cf4 "is at"\cf2 +\cf3 i\cf2 +\cf4 "th position"\cf2 );\cf0\par
+\cf2\tab\tab\}\cf0\par
+\cf2\tab\}\cf0\par
+\cf2\tab\cf0\par
+\cf2\}\cf0\par
+\cf2\}\cf0\par
+\par
+\par
+\cf1\b public\cf2\b0  \cf1\b class\cf2\b0  ReverseString \{\cf0\par
+\cf1\b public\cf2\b0  \cf1\b static\cf2\b0  \cf1\b void\cf2\b0  main(String[] \cf3 args\cf2 ) \{\cf0\par
+\cf2\tab String \cf3 s\cf2  = \cf4 "Velocity"\cf2 ;\cf0\par
+\cf2\tab String \cf3 rev\cf2  = \cf4 ""\cf2 ;\cf0\par
+\cf2\tab\cf1\b for\cf2\b0 (\cf1\b int\cf2\b0  \cf3 i\cf2  = 0;\cf3 i\cf2 <\cf3 s\cf2 .length();\cf3 i\cf2 ++)\cf0\par
+\cf2\tab\{\cf0\par
+\cf2\tab\tab\cf3 rev\cf2  = \cf3 s\cf2 .charAt(\cf3 i\cf2 )+\cf3 rev\cf2 ;\cf0\par
+\cf2\tab\}\cf0\par
+\cf2\tab System.\cf5\b\i out\cf2\b0\i0 .println(\cf4 "reversed string is :"\cf2 +\cf3 rev\cf2 );\cf0\par
+\cf2\}\cf0\par
+\cf2\}\cf0\par
+\par
+\par
+\cf1\b public\cf2\b0  \cf1\b class\cf2\b0  ReverseTheSpace \{\cf0\par
+\cf1\b public\cf2\b0  \cf1\b static\cf2\b0  \cf1\b void\cf2\b0  main(String[] \cf3 args\cf2 ) \{\cf0\par
+\cf2\tab String \cf3 s\cf2  = \cf4 "This is a String"\cf2 ;\cf0\par
+\cf2\tab String \cf3 s1\cf2  = \cf3 s\cf2 .replace(\cf4 " "\cf2 ,\cf4 ""\cf2 );\cf0\par
+\cf2\tab System.\cf5\b\i out\cf2\b0\i0 .println(\cf3 s1\cf2 );\cf0\par
+\cf2\}\cf0\par
+\cf2\}\cf0\par
+\par
+\par
+\cf1\b public\cf2\b0  \cf1\b class\cf2\b0  ReverseTheString \cf0\par
+\cf2\{\cf0\par
+\cf1\b public\cf2\b0  \cf1\b static\cf2\b0  \cf1\b void\cf2\b0  main(String[] \cf3 args\cf2 )\cf0\par
+\cf2\{\cf0\par
+\cf2\tab String \cf3 s\cf2  = \cf4 "This is my India"\cf2 ;\cf0\par
+\cf2\tab\cf0\par
+\cf2\tab String[] \cf3 splittedarray\cf2  =  \cf3 s\cf2 .split(\cf4 " "\cf2 );\cf0\par
+\cf2\tab\cf0\par
+\cf2\tab\cf1\b for\cf2\b0 (\cf1\b int\cf2\b0  \cf3 i\cf2  = 3;\cf3 i\cf2 >=0;\cf3 i\cf2 --)\cf0\par
+\cf2\tab\{\cf0\par
+\cf2\tab\tab System.\cf5\b\i out\cf2\b0\i0 .print(\cf3 splittedarray\cf2 [\cf3 i\cf2 ]+\cf4 " "\cf2 );\cf0\par
+\cf2\tab\}\cf0\par
+\cf2\}\cf0\par
+\cf2\}\cf0\par
+\par
+\par
+\cf1\b public\cf2\b0  \cf1\b class\cf2\b0  Test \{\cf0\par
+\cf1\b public\cf2\b0  \cf1\b static\cf2\b0  \cf1\b void\cf2\b0  main(String[] \cf3 args\cf2 )\cf0\par
+\cf2\{\cf0\par
+\cf2\tab\cf1\b int\cf2\b0  \cf3 a\cf2 [] = \cf1\b new\cf2\b0  \cf1\b int\cf2\b0 [5];\cf0\par
+\cf2\tab\cf3 a\cf2 [0]=20;\cf0\par
+\cf2\tab\cf3 a\cf2 [1]=80;\cf0\par
+\cf2\tab\cf3 a\cf2 [2]=200;\cf0\par
+\cf2\tab\cf3 a\cf2 [3]=5;\cf0\par
+\cf2\tab\cf3 a\cf2 [4]=7;\cf0\par
+\cf2\tab Arrays.\i sort\i0 (\cf3 a\cf2 );\cf0\par
+\cf2\tab\cf1\b for\cf2\b0 (\cf1\b int\cf2\b0  \cf3 aa\cf2 :\cf3 a\cf2 ) \cf0\par
+\cf2\tab\{\cf0\par
+\cf2\tab\tab System.\cf5\b\i out\cf2\b0\i0 .println(\cf3 aa\cf2 );\cf0\par
+\cf2\tab\}\cf0\par
+\cf2\tab System.\cf5\b\i out\cf2\b0\i0 .println(\cf3 a\cf2 [\cf3 a\cf2 .\cf5 length\cf2 -2]);\cf0\par
+\cf2\}\cf0\par
+\cf2\}\par
+\par
+\par
+\par
+\cf1\b public\cf2\b0  \cf1\b class\cf2\b0  even \{\cf0\par
+\cf1\b public\cf2\b0  \cf1\b static\cf2\b0  \cf1\b void\cf2\b0  main(String[] \cf3 args\cf2 ) \cf0\par
+\cf2\{\cf0\par
+\cf2\tab\cf1\b int\cf2\b0  \cf3 i\cf2  = 2;\cf0\par
+\cf2\tab\tab\tab\cf1\b while\cf2\b0 (\cf3 i\cf2 <=20)\cf0\par
+\cf2\tab\tab\tab\{\cf0\par
+\cf2\tab\tab\tab\tab System.\cf5\b\i out\cf2\b0\i0 .println(+\cf3 i\cf2 );\cf0\par
+\cf2\tab\tab\tab\tab\cf3 i\cf2 = \cf3 i\cf2 +2;\cf0\par
+\cf2\tab\tab\tab\}\cf0\par
+\cf2\tab System.\cf5\b\i out\cf2\b0\i0 .println(\cf4 "out side the while loop"\cf2 );\cf0\par
+\cf2\}\cf0\par
+\cf2\}\cf0\par
+\par
+\par
+\par
+\cf1\b public\cf2\b0  \cf1\b class\cf2\b0  evenodd \cf0\par
+\cf2\{\cf0\par
+\cf1\b public\cf2\b0  \cf1\b static\cf2\b0  \cf1\b void\cf2\b0  evenorodd(\cf1\b int\cf2\b0  \cf3 i\cf2 )\cf0\par
+\cf2\{\cf0\par
+\cf2\tab\cf1\b if\cf2\b0 (\cf3 i\cf2 %2==0) \cf0\par
+\cf2\tab\{\cf0\par
+\cf2\tab System.\cf5\b\i out\cf2\b0\i0 .println(\cf3 i\cf2 +\cf4 "is an even number"\cf2 );\tab\cf0\par
+\cf2\tab\}\cf0\par
+\cf2\tab\cf0\par
+\cf2\tab\cf0\par
+\cf2\tab\cf0\par
+\cf2\tab\cf1\b else\cf0\b0\par
+\cf2\tab\{\cf0\par
+\cf2\tab\tab System.\cf5\b\i out\cf2\b0\i0 .println(\cf3 i\cf2 +\cf4 "is an odd number"\cf2 );\tab\tab\cf0\par
+\cf2\tab\}\cf0\par
+\cf2\tab\cf0\par
+\cf2\tab\}\cf0\par
+\par
+\cf2\tab\cf1\b public\cf2\b0  \cf1\b static\cf2\b0  \cf1\b void\cf2\b0  main(String[] \cf3 args\cf2 ) \cf0\par
+\cf2\tab\{ \cf0\par
+\cf2\tab\tab\i evenorodd\i0 (20);\cf0\par
+\cf2\tab\}\cf0\par
+\par
+\cf2\}\cf0\par
+\par
+\cf1\b public\cf2\b0  \cf1\b class\cf2\b0  pelindrom \{\cf0\par
+\cf1\b public\cf2\b0  \cf1\b static\cf2\b0  \cf1\b void\cf2\b0  main(String[] \cf3 args\cf2 ) \{\cf0\par
+\cf2\tab\cf1\b int\cf2\b0  \cf3 no\cf2  = 121;\cf0\par
+\cf2\tab\cf1\b int\cf2\b0  \cf3 temp\cf2  = \cf3 no\cf2 ;\cf0\par
+\cf2\tab\cf1\b int\cf2\b0  \cf3 rev\cf2  = 0,\cf3 rem\cf2 ;\cf0\par
+\cf2\tab\cf1\b while\cf2\b0 (\cf3 temp\cf2 !=0)\cf0\par
+\cf2\tab\{\cf0\par
+\cf2\tab\tab\cf3 rem\cf2  = \cf3 temp\cf2 %10;\cf0\par
+\cf2\tab\tab\cf3 rev\cf2  = \cf3 rev\cf2 *10+\cf3 rem\cf2 ;\cf0\par
+\cf2\tab\tab\cf3 temp\cf2 =\cf3 temp\cf2 /10;\cf0\par
+\cf2\tab\}\cf0\par
+\cf2\tab\cf1\b if\cf2\b0 (\cf3 no\cf2 ==\cf3 rev\cf2 ) \cf0\par
+\cf2\tab\{\cf0\par
+\cf2\tab\tab System.\cf5\b\i out\cf2\b0\i0 .println(\cf3 no\cf2 +\cf4 " is pelindrom"\cf2 );\cf0\par
+\cf2\tab\}\cf0\par
+\cf2\tab\cf1\b else\cf2\b0  \cf0\par
+\cf2\tab\{\cf0\par
+\cf2\tab\tab System.\cf5\b\i out\cf2\b0\i0 .println(\cf3 no\cf2 +\cf4 "is not a pelindrom"\cf2 );\cf0\par
+\cf2\tab\}\cf0\par
+\cf2\}\cf0\par
+\par
+\cf2\}\cf0\par
+\f1\fs22\par
+\par
+\cf1\b\f0\fs20 public\cf2\b0  \cf1\b class\cf2\b0  printnumber \{\cf0\par
+\cf1\b public\cf2\b0  \cf1\b static\cf2\b0  \cf1\b void\cf2\b0  main(String[] \cf3 args\cf2 ) \cf0\par
+\cf2\{\cf0\par
+\cf2\tab\cf1\b int\cf2\b0  \cf3 num\cf2  = 20;\cf0\par
+\cf2\tab\cf1\b while\cf2\b0 (\cf3 num\cf2 <=100 && \cf3 num\cf2 >=20) \{\cf0\par
+\cf2\tab\tab System.\cf5\b\i out\cf2\b0\i0 .println(\cf3 num\cf2 );\cf0\par
+\cf2\tab\cf3 num\cf2 = \cf3 num\cf2  +20;\cf0\par
+\cf2\}\cf0\par
+\cf2 System.\cf5\b\i out\cf2\b0\i0 .println(\cf4 "invalid "\cf2 );\cf0\par
+\cf2\}\cf0\par
+\cf2\}\cf0\par
+\f1\fs22\par
+\par
+\cf1\b\f0\fs20 public\cf2\b0  \cf1\b class\cf2\b0  reversenumber \{\cf0\par
+\cf1\b public\cf2\b0  \cf1\b static\cf2\b0  \cf1\b void\cf2\b0  main(String[] \cf3 args\cf2 ) \cf0\par
+\cf2\{\cf0\par
+\cf2\tab\cf1\b int\cf2\b0  \cf3 number\cf2  = 12345,\cf3 reverse\cf2 =0;\cf0\par
+\cf2\tab\cf1\b while\cf2\b0 (\cf3 number\cf2 !=0)\cf0\par
+\cf2\tab\{\cf0\par
+\cf2\tab\tab\cf1\b int\cf2\b0  \cf3 remainder\cf2  = \cf3 number\cf2 %10;\cf0\par
+\cf2\tab\tab\cf3 reverse\cf2  = \cf3 reverse\cf2 *10+\cf3 remainder\cf2 ;\cf0\par
+\cf2\tab\tab\cf3 number\cf2  = \cf3 number\cf2 /10;\cf0\par
+\cf2\tab\}\cf0\par
+\cf2\tab System.\cf5\b\i out\cf2\b0\i0 .println(\cf4 "the reverse of th given number i "\cf2 +\cf3 reverse\cf2 );\cf0\par
+\cf2\}\cf0\par
+\cf2\}\cf0\par
+\f1\fs22\par
+\par
+\cf1\b\f0\fs20 public\cf2\b0  \cf1\b class\cf2\b0  star2 \{\cf0\par
+\cf2\tab\cf1\b public\cf2\b0  \cf1\b static\cf2\b0  \cf1\b void\cf2\b0  main(String[] \cf3 args\cf2 )\cf0\par
+\cf2\tab\{\cf0\par
+\cf2\tab\tab\cf1\b for\cf2\b0 (\cf1\b int\cf2\b0  \cf3 i\cf2  = 1;\cf3 i\cf2 <=5;\cf3 i\cf2 ++)\cf0\par
+\cf2\tab\tab\{\cf0\par
+\cf2\tab\tab\tab\cf1\b for\cf2\b0 (\cf1\b int\cf2\b0  \cf3 j\cf2  = 1;\cf3 j\cf2 <=\cf3 i\cf2 ;\cf3 j\cf2 ++) \cf0\par
+\cf2\tab\tab\tab\{ \cf0\par
+\cf2\tab\tab\tab\tab System.\cf5\b\i out\cf2\b0\i0 .print(\cf4 "*"\cf2 );\cf0\par
+\cf2\tab\tab\tab\}\cf0\par
+\cf2\tab\tab\tab System.\cf5\b\i out\cf2\b0\i0 .println();\cf0\par
+\cf2\tab\tab\tab\}\cf0\par
+\cf2\tab\tab\cf0\par
+\cf2\tab\}\cf0\par
+\cf2\tab\}\cf0\par
+\par
+\f1\fs22\par
+\cf1\b\f0\fs20 public\cf2\b0  \cf1\b class\cf2\b0  star3 \{\cf0\par
+\cf2\tab\cf1\b public\cf2\b0  \cf1\b static\cf2\b0  \cf1\b void\cf2\b0  main(String[] \cf3 args\cf2 )\cf0\par
+\cf2\tab\{\cf0\par
+\cf2\tab\tab\cf1\b for\cf2\b0 (\cf1\b int\cf2\b0  \cf3 i\cf2  = 1;\cf3 i\cf2 <=5;\cf3 i\cf2 ++)\cf0\par
+\cf2\tab\tab\{\cf0\par
+\cf2\tab\tab\tab\cf1\b for\cf2\b0 (\cf1\b int\cf2\b0  \cf3 j\cf2  = 5;\cf3 j\cf2 >=\cf3 i\cf2 ;\cf3 j\cf2 --) \cf0\par
+\cf2\tab\tab\tab\{ \cf0\par
+\cf2\tab\tab\tab\tab System.\cf5\b\i out\cf2\b0\i0 .print(\cf4 "*"\cf2 );\cf0\par
+\cf2\tab\tab\tab\}\cf0\par
+\cf2\tab\tab\tab System.\cf5\b\i out\cf2\b0\i0 .println();\cf0\par
+\cf2\tab\tab\tab\}\cf0\par
+\cf2\tab\tab\cf0\par
+\cf2\tab\}\cf0\par
+\cf2\}\cf0\par
+\f1\fs22\par
+}
+ 
